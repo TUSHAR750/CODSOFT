@@ -1,0 +1,352 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #578c7b;
+    padding: 15px;
+    overflow: hidden;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40%;
+    transition: transform 0.3s ease;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-outer{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(204, 176, 180);
+    align-items: center;
+    border-radius: 0.75%;
+}
+.about{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.namebio{
+    width: 70%;
+    padding: 10px;
+    padding-left: 40px;
+    justify-content: center;
+    font-size: 25px;
+}
+.namebio span u {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: Georgia;
+}
+
+.pimg{
+    width: 30%;
+}
+.pimg img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+/*.............Skill section...........*/
+.skillproj{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+    /*background-color:rgb(224, 236, 134);*/
+    border-radius: 20px;
+}
+.skill{
+    padding: 20px;
+    width: 45%;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.exp{
+        padding: 20px;
+        width: 45%;
+        background-color: burlywood;
+        border-radius: 10px;
+        font-size: 20px;
+}
+/*.............Project section...........*/
+.proj{
+        padding: 10px;
+        border-radius: 10px;
+        background-color:darkturquoise;
+
+}
+.proj h1{
+    text-decoration: underline;
+}
+.skillproj  h1 {
+    text-decoration: underline;
+}
+.SECOMP{
+    font-size: 25px;
+}
+.MRDX{
+    font-size: 25px;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/*.............resume section...........*/
+.resume{
+    padding: 10px;
+    border-radius: 2%;
+    background-color: cornsilk;
+    text-align: center;
+}
+.resume iframe{
+    width: 60%;
+    height: 800px;
+    border-radius: 2%;
+}
+.resume span{
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+
+.exp td{
+    text-align: center;
+}
+.exp h1{
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+/* .exp th{
+    background-color: aliceblue;
+} */
+.exp{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:darkturquoise;
+}
+.exp th{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.exp table{
+    font-size: 15px;
+    padding: 10px;
+    width: 70%;
+}
+.orgpic{
+    width: 100px;
+}
+.orgpic img{
+    width: 100px;
+    height: 100px; 
+}
+/*.............Contact section...........*/
+
+.form{
+    width:740px;
+    height:540px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#78788c;
+    border-bottom:3px solid #78788c
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+input:focus{
+    border-bottom:2px solid #78788c
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+button:hover{
+    background:#78788c;
+    color:#fff}/*
+.contact{
+   
+}*/
+span{
+    margin:0 5px 0 15px
+}
+/*.............Footer section...........*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+    white-space: nowrap;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 50px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 12px 0;
+	text-align: center;
+	line-height: 10px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
